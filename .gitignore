@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+.env
+.hermes/
+*.egg-info/
+dist/
+build/
+
+# Local runs
+dev_run_results/
+verify_report.json
+basic_results.txt
+**/aiase_result.json
+solution.py
+docs/hermes-config-Boyun1128.yaml
+*.tmp
+
+# Generated dev set sqlite files — students rebuild via dev_set/basic/build_dbs.py
+dev_set/basic/dbs/*.sqlite
